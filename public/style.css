@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  font-family: "Nunito";
+  font-size: 22px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.app-container {
+  overflow: hidden;
+}
+
+.app-header {
+  height: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.app-header-subheader {
+  line-height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header-subheader a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.app-header-subheader a:hover {
+  color: pink;
+  transition: all 0.3s ease;
+}
+
+.app-header-subheader-img {
+  display: block;
+}
+
+.app-header-subheader-img-item {
+  height: 85px;
+  width: 110px;
+}
+
+.menu-header {
+  display: none;
+}
+
+.menu-header:hover {
+  cursor: pointer;
+}
+
+.menu-header-icon {
+  padding: 26px;
+  padding-right: 0;
+}
+
+.app-menu-container {
+  background-color: #fff;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: none;
+  transition: all 4s ease-in-out;
+}
+
+.app-menu-list {
+  list-style: none;
+}
+
+.app-menu-item a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+
+.app-menu-item {
+  padding: 10px 20px;
+}
+
+.app-menu-item:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.app-footer-container {
+  background-color: #039afe;
+}
+
+.app-footer-video {
+  width: 100%;
+}
+
+.video-tag {
+  width: 100%;
+  border-radius: 2px;
+  outline: none;
+}
+
+.app-footer-copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-footer{
+  margin-top: 5px;
+  color: #c60c30;
+}
+
+.nav-location-area{
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+}
+
+.map-location{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.app-footer-actives {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #fff;
+  font-style: italic;
+}
+
+.silde-show {
+  width: 1350px;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 550px;
+  position: relative;
+}
+
+.list-images img {
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+.list-images {
+  display: flex;
+  transition: 0.5s;
+}
+
+.btn {
+  font-size: 25px;
+  position: absolute;
+  color: #999;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+  background-color: #ddd;
+  padding: 8px;
+  border-radius: 30%;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.btnLeft {
+  left: 24px;
+}
+
+.btnRight {
+  right: 24px;
+}
+
+.index-images {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.index-item {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid #999;
+}
+
+.active {
+  background-color: #999;
+}
+
+.app-header{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  right: 0;
+  left: 0;
+}
+
+.app-body{
+  margin-top: 80px;
+}
+
+.nav-information-windsor{
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.nav-courses-list{
+  list-style: none;
+
+}
+
+.nav-courses-item{
+  display: flex;
+  flex-direction: column;
+  background-color: #ccffff;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.nav-courses-item-textname{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-body{
+  margin-bottom: 20px;
+}
+
+.nav-courses-item img{
+  height: 400px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.nav-courses-header
+,.nav-location-header{
+  margin-left: 75px;
+  margin-top: 20px;
+  font-family: monospace;
+}
+
+
+
+.image-windsor-center{
+  width: 100%;
+}
+
+.app-teacher-list{
+  margin-left: 30px;
+  list-style: none;
+  margin-top: 100px;
+}
+
+.app-teacher-item{
+  margin-top: 20px;
+}
+
+.nav-pageactive-items{
+  margin-top: 20px;
+}
+
+.read-book{
+  text-decoration: none;
+  background-color: #c60c30;
+  text-align: center;
+  padding: 6px;
+  color: #fff;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.read-book:hover{
+  opacity: 0.8;
+}
+
+.nav-courses-item .fa-star{
+  font-size: 18px;
+  margin: 0 4px;
+  color: #f2c109;
+}
+
+.video-hoat-dong{
+  width: 100%;
+  outline: none;
+}

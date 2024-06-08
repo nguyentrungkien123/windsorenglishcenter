@@ -1,0 +1,28 @@
+@media (max-width: 540px) {
+  .menu-header {
+    display: block;
+    font-size: 28px;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 34px;
+  }
+
+  .app-footer-actives{
+    padding: 20px;
+  }
+
+  .video-tag{
+    padding: 10px;
+
+  }
+
+  .app-footer-copyright{
+    padding: 10px;
+  }
+
+  .col{
+    padding: 0 20px;
+  }
+}
