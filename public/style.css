@@ -317,3 +317,152 @@ body {
   width: 100%;
   outline: none;
 }
+
+.nav-news-list{
+  list-style: none;
+}
+
+.nav-news-items{
+ margin-top: 10px;
+}
+
+.nav-news-link{
+  text-decoration: none;
+}
+
+.nav-news-link .nav-news-img img{
+  width: 100%;
+  border-radius: 6px;
+}
+
+.nav-news-footer{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  color: #ccc;
+}
+
+.nav-news-textheader h2{
+  font-size: 20px;
+  font-family: monospace;
+  text-align: justify;
+  color: #000;
+}
+
+.nav-news-header{
+  margin-left: 75px;
+  margin-top: 80px;
+  font-family: monospace;
+  color: #2fa1b3;
+}
+
+.news-update{
+  font-size: 16px;
+  color: #db562b;
+}
+
+.nav-news-detail-container{
+  margin-top: 120px;
+}
+
+.new-detail-showmany,
+.new-takecare{
+  padding: 5px;
+  border-bottom: 2px solid #039afe;
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+  color: #039afe;
+}
+
+.new-takecare{
+  color: #c60c30;
+  border-bottom: 2px solid #c60c30;
+}
+
+.text-header-detail{
+  font-family: monospace;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.text-body-list{
+  list-style: none;
+}
+
+.img-user img{
+  width: 30px;
+}
+
+.user-post{
+  display: flex;
+}
+
+.user-post span{
+  margin-left: 15px;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+.text-body-list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.topic{
+  border: 1px solid #039afe;
+  padding: 5px 20px;
+  text-align: center;
+  color: #039afe;
+  border-radius: 6px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
+
+.timepost{
+  color: #999;
+  font-size: 20px;
+}
+
+.header-text{
+  margin-top: 20px;
+  font-family: monospace;
+  text-align: justify;
+}
+
+.header-description{
+  margin-top: 20px;
+ text-align: justify;
+ font-family: monospace;
+ font-size: 18px;
+}
+
+.header-img{
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.detail-video{
+  margin-top: 10px;
+}
+
+.text-tuyendung{
+  width: 1200px;
+  margin: 0 auto;
+  font-family: monospace;
+  font-weight: 300;
+  margin-top: 120px;
+}
+
+.header-descriptionh{
+  font-family: monospace;
+  margin: 2px 0;
+}
