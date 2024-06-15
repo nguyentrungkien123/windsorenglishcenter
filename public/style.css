@@ -126,19 +126,19 @@ body {
   flex-direction: column;
 }
 
-.location-footer{
+.location-footer {
   margin-top: 5px;
   color: #c60c30;
 }
 
-.nav-location-area{
+.nav-location-area {
   text-align: center;
   width: 100%;
   display: block;
   margin-top: 5px;
 }
 
-.map-location{
+.map-location {
   width: 100%;
   margin-top: 20px;
 }
@@ -165,7 +165,6 @@ body {
   border-radius: 6px;
   height: 100%;
   object-fit: contain;
-
 }
 
 .list-images {
@@ -218,7 +217,7 @@ body {
   background-color: #999;
 }
 
-.app-header{
+.app-header {
   position: fixed;
   top: 0;
   z-index: 100;
@@ -226,23 +225,22 @@ body {
   left: 0;
 }
 
-.app-body{
+.app-body {
   margin-top: 80px;
 }
 
-.nav-information-windsor{
+.nav-information-windsor {
   margin-top: 10px;
   margin-left: 50px;
   font-size: 18px;
   font-family: monospace;
 }
 
-.nav-courses-list{
+.nav-courses-list {
   list-style: none;
-
 }
 
-.nav-courses-item{
+.nav-courses-item {
   display: flex;
   flex-direction: column;
   background-color: #ccffff;
@@ -251,49 +249,47 @@ body {
   border-radius: 5px;
 }
 
-.nav-courses-item-textname{
+.nav-courses-item-textname {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.app-body{
+.app-body {
   margin-bottom: 20px;
 }
 
-.nav-courses-item img{
+.nav-courses-item img {
   height: 400px;
   margin-bottom: 10px;
   border-radius: 3px;
 }
 
-.nav-courses-header
-,.nav-location-header{
+.nav-courses-header,
+.nav-location-header {
   margin-left: 75px;
   margin-top: 20px;
   font-family: monospace;
 }
 
-
-
-.image-windsor-center{
+.image-windsor-center {
   width: 100%;
 }
 
-.app-teacher-list{
+.app-teacher-list {
   margin-left: 30px;
   list-style: none;
   margin-top: 100px;
 }
 
-.app-teacher-item{
+.app-teacher-item {
   margin-top: 20px;
 }
 
-.nav-pageactive-items{
+.nav-pageactive-items {
   margin-top: 20px;
 }
 
-.read-book{
+.read-book {
   text-decoration: none;
   background-color: #c60c30;
   text-align: center;
@@ -303,39 +299,39 @@ body {
   border-radius: 4px;
 }
 
-.read-book:hover{
+.read-book:hover {
   opacity: 0.8;
 }
 
-.nav-courses-item .fa-star{
+.nav-courses-item .fa-star {
   font-size: 18px;
   margin: 0 4px;
   color: #f2c109;
 }
 
-.video-hoat-dong{
+.video-hoat-dong {
   width: 100%;
   outline: none;
 }
 
-.nav-news-list{
+.nav-news-list {
   list-style: none;
 }
 
-.nav-news-items{
- margin-top: 10px;
+.nav-news-items {
+  margin-top: 10px;
 }
 
-.nav-news-link{
+.nav-news-link {
   text-decoration: none;
 }
 
-.nav-news-link .nav-news-img img{
+.nav-news-link .nav-news-img img {
   width: 100%;
   border-radius: 6px;
 }
 
-.nav-news-footer{
+.nav-news-footer {
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
@@ -343,31 +339,31 @@ body {
   color: #ccc;
 }
 
-.nav-news-textheader h2{
+.nav-news-textheader h2 {
   font-size: 20px;
   font-family: monospace;
   text-align: justify;
   color: #000;
 }
 
-.nav-news-header{
+.nav-news-header {
   margin-left: 75px;
   margin-top: 80px;
   font-family: monospace;
   color: #2fa1b3;
 }
 
-.news-update{
+.news-update {
   font-size: 16px;
   color: #db562b;
 }
 
-.nav-news-detail-container{
+.nav-news-detail-container {
   margin-top: 120px;
 }
 
 .new-detail-showmany,
-.new-takecare{
+.new-takecare {
   padding: 5px;
   border-bottom: 2px solid #039afe;
   text-align: center;
@@ -376,36 +372,36 @@ body {
   color: #039afe;
 }
 
-.new-takecare{
+.new-takecare {
   color: #c60c30;
   border-bottom: 2px solid #c60c30;
 }
 
-.text-header-detail{
+.text-header-detail {
   font-family: monospace;
   font-size: 25px;
   text-align: justify;
 }
 
-.text-body-list{
+.text-body-list {
   list-style: none;
 }
 
-.img-user img{
+.img-user img {
   width: 30px;
 }
 
-.user-post{
+.user-post {
   display: flex;
 }
 
-.user-post span{
+.user-post span {
   margin-left: 15px;
   font-weight: 800;
   font-family: monospace;
 }
 
-.text-body-list{
+.text-body-list {
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
@@ -414,47 +410,46 @@ body {
   align-items: center;
 }
 
-.topic{
+.topic {
   border: 1px solid #039afe;
   padding: 5px 20px;
   text-align: center;
   color: #039afe;
   border-radius: 6px;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
-
 }
 
-.timepost{
+.timepost {
   color: #999;
   font-size: 20px;
 }
 
-.header-text{
+.header-text {
   margin-top: 20px;
   font-family: monospace;
   text-align: justify;
 }
 
-.header-description{
+.header-description {
   margin-top: 20px;
- text-align: justify;
- font-family: monospace;
- font-size: 18px;
+  text-align: justify;
+  font-family: monospace;
+  font-size: 18px;
 }
 
-.header-img{
+.header-img {
   width: 100%;
   margin-top: 10px;
   border-radius: 3px;
 }
 
-.detail-video{
+.detail-video {
   margin-top: 10px;
 }
 
-.text-tuyendung{
+.text-tuyendung {
   width: 100%;
   margin: 0 auto;
   font-family: monospace;
@@ -464,7 +459,25 @@ body {
   text-align: justify;
 }
 
-.header-descriptionh{
+.header-descriptionh {
   font-family: monospace;
   margin: 2px 0;
+}
+
+.app-video-edit-header,
+.app-body-header {
+  font-size: 20px;
+  font-family: monospace;
+  padding-left: 10px;
+}
+
+.app-video-edit-header {
+  border-left: 3px solid #c60c30;
+  color: #c60c30;
+}
+
+.app-body-header {
+  border-left: 3px solid #039afe;
+  margin-top: 100px;
+  color: #039afe;
 }
